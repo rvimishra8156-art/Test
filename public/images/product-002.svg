@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="100%" height="100%" fill="#fff9f5"/>
+  <rect x="80" y="120" width="1040" height="560" rx="14" fill="#f6e9e0" stroke="#6b3e1a" stroke-width="10"/>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#6b3e1a" font-family="Arial" font-size="44">Desk Pen Holder</text>
+</svg>

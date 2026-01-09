@@ -1,0 +1,52 @@
+name: Build, LHCI & Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build-and-lhci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Use Node.js 18.x
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build & Export
+        run: npm run export
+
+      - name: Serve exported static site
+        run: npx http-server out -p 8080 &
+      
+      - name: Wait for server to be ready
+        run: npx wait-on http://localhost:8080 --timeout 120000
+
+      - name: Run Lighthouse CI
+        run: npx @lhci/cli autorun --config=.lighthouseci.yml
+
+  deploy:
+    needs: build-and-lhci
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js 18.x
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - name: Install dependencies
+        run: npm ci
+      - name: Build & Export
+        run: npm run export
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          publish_dir: ./out
+          publish_branch: gh-pages
+          github_token: ${{ secrets.GITHUB_TOKEN }}

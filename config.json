@@ -1,0 +1,26 @@
+{
+  "company": {
+    "name": "Pluss Wood",
+    "tagline": "Crafted Wood. Curated Living.",
+    "phone": "9711842097",
+    "whatsapp_international": "919711842097",
+    "email": "plussunilsingh@gmail.com",
+    "address": "New Delhi, India",
+    "currency": "INR",
+    "default_items_per_page": 9,
+    "price_display": {
+      "unit": "RS",
+      "range_min": 50,
+      "range_max": 120
+    }
+  },
+  "emailjs": {
+    "service_id": "REPLACE_WITH_YOUR_SERVICE_ID",
+    "template_id": "REPLACE_WITH_YOUR_TEMPLATE_ID",
+    "public_key": "REPLACE_WITH_YOUR_PUBLIC_KEY"
+  },
+  "seo": {
+    "site_title": "Pluss Wood — Premium Wooden Products",
+    "site_description": "Premium handcrafted wooden goods — serving trays, pen holders, frames, small furniture and curated gifts."
+  }
+}

@@ -1,0 +1,14 @@
+ci:
+  collect:
+    url:
+      - http://localhost:8080
+    numberOfRuns: 3
+    settings:
+      emulatedFormFactor: mobile
+      chromeFlags: --no-sandbox --headless --disable-gpu
+  assert:
+    assertions:
+      categories:performance: '>=0.6'
+      categories:accessibility: '>=0.9'
+      categories:best-practices: '>=0.9'
+      categories:seo: '>=0.9'

@@ -1,0 +1,4 @@
+1) Classic Serving Tray: "Photorealistic mango wood serving tray on marble tabletop, brass handles, natural daylight, shallow depth of field, 35mm lens, warm tones, high detail --ar 3:2 --v 6"
+2) Desk Pen Holder: "Teak wood pen holder on modern desk, laptop bokeh, soft sunlight, 85mm lens, high detail --ar 4:5 --v 6"
+3) Picture Frame: "Walnut picture frame on wall with soft natural light, styled with plant, 50mm lens, realistic texture --ar 3:2 --v 6"
+... (continue similarly through 40 prompts)
