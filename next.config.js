@@ -1,10 +1,11 @@
-/** Next.js static export configuration */
+cat > next.config.js <<'EOF'
+/** Next.js static export configuration (CommonJS) */
 const nextConfig = {
   reactStrictMode: true,
-  // Configure next export compatibility
-  output: "export",
-  // For next export, avoid using next/image optimization that requires Node server.
-  // Serve images from public/ folder (we use standard <img> tags).
+  // Ensure static export compatibility
+  output: "export"
+  // Note: next/image optimization that requires a Node server is avoided for static export.
 };
 
-export default nextConfig;
+module.exports = nextConfig;
+EOF
