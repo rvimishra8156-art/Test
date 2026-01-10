@@ -57,13 +57,14 @@ export default function Home({ products }) {
   );
 }
 
+
 export async function getStaticProps() {
   // load static products at build time
   const products = await import("../data/products.json").then((m) => m.default || m);
   return {
     props: {
       products
-    },
-    revalidate: 60 // optional ISR (not used by next export but safe)
+    }
+    // NOTE: removed `revalidate` because next export (static HTML) does not support ISR
   };
 }
