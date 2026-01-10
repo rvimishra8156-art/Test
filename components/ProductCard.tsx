@@ -1,5 +1,6 @@
 import React from 'react';
 import { Product } from '../types';
+import config from '../config.json';
 
 import Image from 'next/image';
 
@@ -11,8 +12,9 @@ interface ProductCardProps {
 export default function ProductCard({ product, onClick }: ProductCardProps) {
     // Safe WhatsApp link generator
     const getWhatsAppLink = (name: string, sku: string) => {
+        const phone = config.company.whatsapp_international;
         const text = `Hi, I'm interested in the product: ${name} (SKU:${sku})`;
-        return `https://wa.me/919711842097?text=${encodeURIComponent(text)}`;
+        return `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
     };
 
     return (

@@ -3,8 +3,11 @@ import { useState } from "react";
 import { GetStaticProps } from "next";
 import ProductList from "../components/ProductList";
 import ProductModal from "../components/ProductModal";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 import { getProducts } from "../lib/data";
 import { Product } from "../types";
+import config from "../config.json";
 
 interface HomeProps {
     products: Product[];
@@ -26,30 +29,16 @@ export default function Home({ products }: HomeProps) {
     return (
         <>
             <Head>
-                <title>Pluss Wood | Premium Handcrafted Furniture</title>
+                <title>{config.seo.site_title}</title>
                 <meta
                     name="description"
-                    content="Premium wooden furniture and accessories for modern homes."
+                    content={config.seo.site_description}
                 />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
 
-            <header className="site-header">
-                <div className="container">
-                    <div className="logo">
-                        <h1>Pluss Wood</h1>
-                    </div>
-                    <div className="search-bar">
-                        <input
-                            type="text"
-                            placeholder="Search products..."
-                            value={search}
-                            onChange={(e) => setSearch(e.target.value)}
-                            aria-label="Search"
-                        />
-                    </div>
-                </div>
-            </header>
+            {/* Shared Header with Top Bar */}
+            <Header onSearch={setSearch} />
 
             <main className="container main-content">
                 <div className="hero">
@@ -63,9 +52,7 @@ export default function Home({ products }: HomeProps) {
                 />
             </main>
 
-            <footer className="site-footer">
-                <p>© {new Date().getFullYear()} Pluss Wood. All rights reserved.</p>
-            </footer>
+            <Footer />
 
             {selectedProduct && (
                 <ProductModal
