@@ -1,35 +1,298 @@
-:root{
-  --bg:#fff9f5; --accent:#6b3e1a; --muted:#6b6b6b; --card:#fff; --radius:12px;
+:root {
+  --bg: #fffbf7; /* Warmer, premium background */
+  --accent: #5d4037; /* Rich wood tone */
+  --accent-light: #8d6e63;
+  --text: #3e2723;
+  --muted: #8d8d8d;
+  --card-bg: #ffffff;
+  --radius: 12px;
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.04);
+  --shadow-md: 0 8px 24px rgba(0,0,0,0.08);
+  --font-base: "Inter", system-ui, -apple-system, sans-serif;
 }
-*{box-sizing:border-box}
-body{margin:0;font-family:Inter,system-ui,Arial;background:var(--bg);color:#222}
-.site-header .topline{display:flex;justify-content:space-between;padding:8px 16px;background:#fff; font-size:14px}
-.nav{display:flex;justify-content:space-between;align-items:center;padding:12px 16px}
-.brand .logo{font-weight:700;color:var(--accent);font-size:20px}
-.search input{padding:8px 10px;border-radius:8px;border:1px solid #eee;min-width:220px}
-.hero{padding:28px 16px;background:linear-gradient(180deg, #fff6f0, transparent)}
-.hero-inner{max-width:900px;margin:0 auto;text-align:center}
-.products-section{max-width:1100px;margin:18px auto;padding:0 16px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
-.product-card{background:var(--card);border-radius:10px;padding:10px;box-shadow:0 6px 18px rgba(27,27,27,0.06)}
-.product-card img{width:100%;height:160px;object-fit:cover;border-radius:8px}
-.product-body{padding:8px}
-.product-body h3{margin:8px 0 4px;font-size:16px}
-.price{color:var(--accent);font-weight:600}
-.actions{display:flex;gap:8px;align-items:center;margin-top:8px}
-.actions .whatsapp{color:#fff;background:#25d366;padding:6px 10px;border-radius:8px;text-decoration:none}
-.pagination{display:flex;gap:6px;justify-content:center;padding:18px}
-.site-footer{padding:18px;text-align:center;color:var(--muted);background:#fff;margin-top:28px}
-.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.5);display:flex;align-items:center;justify-content:center;padding:12px;z-index:50}
-.modal-content{background:#fff;border-radius:12px;max-width:900px;width:100%;max-height:90vh;overflow:auto;position:relative;padding:16px}
-.modal-close{position:absolute;right:12px;top:8px;background:none;border:none;font-size:22px}
-.modal-body{display:flex;gap:16px;flex-wrap:wrap}
-.gallery{flex:1 1 360px}
-.gallery .main{width:100%;height:360px;object-fit:cover;border-radius:8px}
-.thumbs{display:flex;gap:8px;margin-top:8px;flex-wrap:wrap}
-.thumb{border:none;padding:0;background:none}
-.thumb img{width:64px;height:64px;object-fit:cover;border-radius:6px;opacity:0.8}
-.thumb.active img{outline:3px solid var(--accent);opacity:1}
-.details{flex:1 1 260px}
-.whatsapp.large{display:inline-block;background:#25d366;color:#fff;padding:10px 14px;border-radius:8px;text-decoration:none;margin-top:12px}
-@media (max-width:700px){ .modal-body{flex-direction:column} .gallery .main{height:260px} }
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: var(--font-base);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+/* Header & Nav */
+.site-header {
+  background: #fff;
+  box-shadow: var(--shadow-sm);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.site-header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+  color: var(--accent);
+  letter-spacing: -0.5px;
+}
+.search-bar input {
+  padding: 10px 16px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  background: #f9f9f9;
+  width: 240px;
+  transition: all 0.2s;
+  outline: none;
+}
+.search-bar input:focus {
+  border-color: var(--accent-light);
+  background: #fff;
+  box-shadow: 0 0 0 3px rgba(93, 64, 55, 0.1);
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(180deg, #fff, transparent);
+}
+.hero h2 {
+  font-size: 32px;
+  margin-bottom: 8px;
+  color: var(--accent);
+}
+.hero p {
+  color: var(--muted);
+  font-size: 18px;
+}
+
+/* Layout */
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px 60px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Wider cards */
+  gap: 24px;
+}
+
+/* Product Card */
+.product-card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.3s ease;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.03);
+  display: flex;
+  flex-direction: column;
+}
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.product-image {
+  height: 220px;
+  width: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  background: #f0f0f0;
+}
+.product-image img {
+  transition: transform 0.5s ease;
+}
+.product-card:hover .product-image img {
+  transform: scale(1.05); /* Subtle zoom */
+}
+
+.product-body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+.product-body h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text);
+}
+.price {
+  font-size: 16px;
+  color: var(--accent);
+  font-weight: 700;
+}
+.actions {
+  margin-top: auto;
+  display: flex;
+  gap: 10px;
+}
+.btn-details, .btn-whatsapp {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  transition: background 0.2s;
+}
+.btn-details {
+  background: #f0ebe8;
+  color: var(--accent);
+}
+.btn-details:hover {
+  background: #e4dad6;
+}
+.btn-whatsapp {
+  background: #25d366;
+  color: white;
+}
+.btn-whatsapp:hover {
+  background: #1ebc57;
+}
+
+/* Pagination */
+.pagination {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.pagination button {
+  padding: 8px 14px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  color: var(--text);
+  font-weight: 500;
+  transition: all 0.2s;
+}
+.pagination button:hover:not(:disabled) {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.pagination button.active {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(4px);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.modal-content {
+  background: #fff;
+  width: 100%;
+  max-width: 900px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  max-height: 90vh;
+  position: relative;
+}
+.modal-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: rgba(0,0,0,0.05);
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+.modal-close:hover { background: rgba(0,0,0,0.1); }
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding: 0;
+}
+@media(min-width: 768px) {
+  .modal-body {
+    flex-direction: row;
+  }
+}
+
+.gallery {
+  flex: 1.2;
+  background: #f9f9f9;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.details {
+  flex: 1;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.details h2 { margin: 0; font-size: 28px; color: var(--accent); }
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-right: 6px;
+    color: #666;
+}
+.whatsapp.large {
+    display: block;
+    text-align: center;
+    background: #25d366;
+    color: white;
+    padding: 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  padding: 40px;
+  color: var(--muted);
+  border-top: 1px solid #eee;
+  margin-top: auto;
+}

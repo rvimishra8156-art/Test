@@ -17,29 +17,29 @@ export default function ProductCard({ product, onClick }: ProductCardProps) {
 
     return (
         <div className="product-card">
-            <div className="image-container" onClick={() => onClick(product)}>
+            <div className="product-image" onClick={() => onClick(product)}>
                 {/* Defensive check for images array is now guaranteed by Zod at data layer, but good to keep safe */}
                 <Image
                     src={product.images[0]}
                     alt={product.name}
                     width={400}
                     height={300}
-                    style={{ objectFit: 'cover', width: '100%', aspectRatio: '4/3' }}
+                    style={{ objectFit: 'cover', width: '100%', height: '100%' }}
                     unoptimized
                 />
             </div>
-            <div className="info">
+            <div className="product-body">
                 <h3>{product.name}</h3>
                 <p className="price">₹{product.price_min} - ₹{product.price_max}</p>
                 <div className="actions">
-                    <button className="btn-details" onClick={() => onClick(product)}>View Details</button>
+                    <button className="btn-details" onClick={() => onClick(product)}>View</button>
                     <a
                         href={getWhatsAppLink(product.name, product.sku)}
                         className="btn-whatsapp"
                         target="_blank"
                         rel="noreferrer"
                     >
-                        Buy on WP
+                        WhatsApp
                     </a>
                 </div>
             </div>
