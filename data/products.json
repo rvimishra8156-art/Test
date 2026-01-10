@@ -27,11 +27,10 @@
         "name":  "Desk Pen Holder",
         "description":  "Minimal teak wood pen holder to keep your workspace tidy.",
         "images":  [
-                       "/images/product-004.png",
+                       "/images/stock/stock-pen-holder.jpg",
                        "/images/prod-002-gen-7519.jpg",
                        "/images/prod-002-gen-9672.jpg",
-                       "/images/prod-002-gen-8046.jpg",
-                       "/images/prod-002-gen-7118.jpg"
+                       "/images/prod-002-gen-8046.jpg"
                    ],
         "price_min":  60,
         "price_max":  110,
@@ -73,6 +72,7 @@
         "name":  "Foldable Book Stand",
         "description":  "Compact foldable book support made of sustainable teak; ideal for study tables.",
         "images":  [
+                       "/images/stock/stock-book-stand.jpg",
                        "/images/prod-004-gen-8525.jpg",
                        "/images/prod-004-gen-7726.jpg",
                        "/images/prod-004-gen-3855.jpg",
@@ -292,7 +292,7 @@
         "name":  "Remote \u0026 Phone Holder",
         "description":  "Desk caddy for remotes, phone and small items, made from rosewood.",
         "images":  [
-                       "/images/product-004.png",
+                       "/images/stock/stock-remote-holder.jpg",
                        "/images/prod-014-gen-6337.jpg",
                        "/images/prod-014-gen-7986.jpg",
                        "/images/prod-014-gen-3700.jpg",
@@ -378,7 +378,6 @@
         "name":  "Executive Pen Stand",
         "description":  "Solid wood pen stand with pen slot and business card holder.",
         "images":  [
-                       "/images/product-004.png",
                        "/images/prod-018-gen-6167.jpg",
                        "/images/prod-018-gen-9914.jpg",
                        "/images/prod-018-gen-6471.jpg",
@@ -674,7 +673,7 @@
         "name":  "Laptop Stand",
         "description":  "Wooden laptop stand with ventilation slots and angle support.",
         "images":  [
-                       "/images/product-004.png",
+                       "/images/stock/stock-laptop-stand.jpg",
                        "/images/prod-032-gen-2575.jpg",
                        "/images/prod-032-gen-3937.jpg",
                        "/images/prod-032-gen-7049.jpg",
