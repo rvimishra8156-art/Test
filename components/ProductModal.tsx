@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Image from "next/image";
 import { Product } from "../types";
 
 interface ProductModalProps {
@@ -34,12 +35,15 @@ export default function ProductModal({ product, onClose }: ProductModalProps) {
                 <div className="modal-body">
                     <div className="gallery">
                         {/* Main Image with aspect ratio prevention */}
-                        <div style={{ aspectRatio: '4/3', width: '100%', overflow: 'hidden', borderRadius: '8px' }}>
-                            <img
+                        <div style={{ aspectRatio: '4/3', width: '100%', overflow: 'hidden', borderRadius: '8px', position: 'relative' }}>
+                            <Image
                                 className="main"
                                 src={product.images[index]}
                                 alt={product.name}
+                                width={800}
+                                height={600}
                                 style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                unoptimized
                             />
                         </div>
 
@@ -47,11 +51,11 @@ export default function ProductModal({ product, onClose }: ProductModalProps) {
                             {Array.isArray(product.images) && product.images.map((src, i) => (
                                 <button
                                     key={i}
-                                    className={`thumb ${i === index ? "active" : ""}`}
+                                    className={`thumb ${i === index ? "active" : ""} `}
                                     onClick={() => setIndex(i)}
-                                    aria-label={`View angle ${i + 1}`}
+                                    aria-label={`View angle ${i + 1} `}
                                 >
-                                    <img src={src} alt={`${product.name} ${i + 1}`} />
+                                    <Image src={src} alt={`${product.name} ${i + 1} `} width={80} height={80} style={{ objectFit: 'cover' }} unoptimized />
                                 </button>
                             ))}
                         </div>

@@ -5,22 +5,22 @@
   "scripts": {
     "dev": "next dev -p 3000",
     "build": "next build",
-    "export": "next build && next export",
+    "export": "next build",
     "start": "next start -p 3000",
     "serve-export": "npx http-server out -p 8080",
     "lint": "next lint"
   },
   "devDependencies": {
+    "@lhci/cli": "^0.13.0",
+    "@types/node": "20.19.28",
+    "@types/react": "18.3.27",
+    "@types/react-dom": "^18.0.0",
     "eslint": "8",
     "eslint-config-next": "14.2.35",
-    "puppeteer": "^22.0.0",
-    "wait-on": "^7.2.0",
     "http-server": "^14.1.1",
-    "@lhci/cli": "^0.13.0",
-    "typescript": "^5.0.0",
-    "@types/node": "^20.0.0",
-    "@types/react": "^18.0.0",
-    "@types/react-dom": "^18.0.0"
+    "puppeteer": "^22.0.0",
+    "typescript": "5.9.3",
+    "wait-on": "^7.2.0"
   },
   "dependencies": {
     "emailjs-com": "^3.2.0",

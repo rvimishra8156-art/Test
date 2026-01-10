@@ -2,7 +2,9 @@ name: Build, LHCI & Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "**" ]
+  pull_request:
+    branches: [ "**" ]
   workflow_dispatch:
 
 jobs:
@@ -32,6 +34,7 @@ jobs:
             .lighthouseci/
 
   deploy:
+    if: github.ref == 'refs/heads/main'
     needs: build-and-lhci
     runs-on: ubuntu-latest
     steps:
