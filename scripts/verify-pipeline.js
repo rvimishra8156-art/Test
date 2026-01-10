@@ -107,6 +107,32 @@ async function main() {
         process.exit(1);
     }
 
+
+    // 3.5 Check Image Integrity
+    log('Checking Image Integrity...');
+    const products = require('../data/products.json');
+    let imgErrors = 0;
+    products.forEach(p => {
+        if (!Array.isArray(p.images)) {
+            console.error(`  ${p.id}: Images is not an array`);
+            imgErrors++;
+            return;
+        }
+        p.images.forEach(img => {
+            const pth = path.join(process.cwd(), 'public', img);
+            if (!fs.existsSync(pth)) {
+                console.error(`  ${p.id}: Missing image ${img}`);
+                imgErrors++;
+            }
+        });
+    });
+    if (imgErrors > 0) {
+        console.error(`  Failed: ${imgErrors} missing/invalid images.`);
+        process.exit(1);
+    } else {
+        log('Passed: All images exist on disk.');
+    }
+
     // 4. Lighthouse Performance
     await runStep('Lighthouse CI', 'npx @lhci/cli autorun --config=.lighthouseci.yml');
 

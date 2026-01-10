@@ -2,5 +2,8 @@
 module.exports = {
   reactStrictMode: true,
   // Ensure static export compatibility
-  output: 'export'
+  output: 'export',
+  images: {
+    unoptimized: true
+  }
 };
