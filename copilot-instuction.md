@@ -148,6 +148,42 @@ Maintenance checklist
 - [ ] Periodically run Lighthouse and update thresholds if unrealistic.
 
 –––––––––––––––––––––––––
+11) Best Practices & Code Standards
+(Strictly follow these principles for all code changes)
+–––––––––––––––––––––––––
+- **SOLID Principles**:
+    - **S**: Single Responsibility. Components should do one thing (e.g., `ProductCard` displays data, `ProductList` manages the grid).
+    - **O**: Open/Closed. Extend functionality via props/composition, don't modify core logic unnecessarily.
+    - **L**: Liskov Substitution. (Less relevant in React prop types, but ensure predictable prop behavior).
+    - **I**: Interface Segregation. Pass only necessary props to components.
+    - **D**: Dependency Inversion. Use hooks/context for data fetching/state, don't hardcode data inside presentation components.
+
+- **DRY (Don't Repeat Yourself)**:
+    - Extract reusable logic into custom hooks (e.g., `useProductSearch`).
+    - Use utility classes/CSS variables for consistent styling.
+    - Centralize configuration (e.g., `config.json` for site text).
+
+- **Clean Code & Anti-Patterns**:
+    - **No Prop Drilling**: Use Context API if data needs to go 3+ levels deep.
+    - **No Magic Numbers**: Use named constants.
+    - **Avoid Heavy Libraries**: Prefer native browser APIs or lightweight alternatives.
+    - **Validation**: Validate props (PropTypes/TypeScript interfaces) and user inputs.
+
+- **Performance**:
+    - **Lazy Loading**: All images below the fold MUST use `loading="lazy"`.
+    - **CLS Prevention**: All image containers MUST have explicit aspect ratios or width/height attributes.
+    - **Code Splitting**: Dynamic imports for heavy modals/components.
+
+12) Automated Verification Loop
+(Run this loop after every significant change)
+–––––––––––––––––––––––––
+1. **Lint & Format**: Ensure code style is consistent (`npm run lint` if available).
+2. **Build Check**: Run `npm run build` to catch compile-time errors.
+3. **Export Check**: Run `npm run export` to verify static generation.
+4. **Visual Regression**: Serve `out/` locally and verify critical paths (Home -> Search -> Product Modal).
+5. **Lighthouse**: Run `lhci autorun` to catch performance regressions.
+
+–––––––––––––––––––––––––
 6) Current status — Completed vs Remaining
 (Use this to track progress at a glance)
 –––––––––––––––––––––––––
@@ -291,3 +327,39 @@ Provide a PR description for UX polishing: add hover states on product cards, ke
 - Extract the exact theme colors & font sizes from your styles/globals.css if you paste its content here.
 
 Which of those shall I produce now?
+
+–––––––––––––––––––––––––
+11) Best Practices & Code Standards
+(Strictly follow these principles for all code changes)
+–––––––––––––––––––––––––
+- **SOLID Principles**:
+    - **S**: Single Responsibility. Components should do one thing (e.g., `ProductCard` displays data, `ProductList` manages the grid).
+    - **O**: Open/Closed. Extend functionality via props/composition, don't modify core logic unnecessarily.
+    - **L**: Liskov Substitution. (Less relevant in React prop types, but ensure predictable prop behavior).
+    - **I**: Interface Segregation. Pass only necessary props to components.
+    - **D**: Dependency Inversion. Use hooks/context for data fetching/state, don't hardcode data inside presentation components.
+
+- **DRY (Don't Repeat Yourself)**:
+    - Extract reusable logic into custom hooks (e.g., `useProductSearch`).
+    - Use utility classes/CSS variables for consistent styling.
+    - Centralize configuration (e.g., `config.json` for site text).
+
+- **Clean Code & Anti-Patterns**:
+    - **No Prop Drilling**: Use Context API if data needs to go 3+ levels deep.
+    - **No Magic Numbers**: Use named constants.
+    - **Avoid Heavy Libraries**: Prefer native browser APIs or lightweight alternatives.
+    - **Validation**: Validate props (PropTypes/TypeScript interfaces) and user inputs.
+
+- **Performance**:
+    - **Lazy Loading**: All images below the fold MUST use `loading="lazy"`.
+    - **CLS Prevention**: All image containers MUST have explicit aspect ratios or width/height attributes.
+    - **Code Splitting**: Dynamic imports for heavy modals/components.
+
+12) Automated Verification Loop
+(Run this loop after every significant change)
+–––––––––––––––––––––––––
+1. **Lint & Format**: Ensure code style is consistent (`npm run lint` if available).
+2. **Build Check**: Run `npm run build` to catch compile-time errors.
+3. **Export Check**: Run `npm run export` to verify static generation.
+4. **Visual Regression**: Serve `out/` locally and verify critical paths (Home -> Search -> Product Modal).
+5. **Lighthouse**: Run `lhci autorun` to catch performance regressions.
