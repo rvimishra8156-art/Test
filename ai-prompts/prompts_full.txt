@@ -1,0 +1,125 @@
+1) Classic Serving Tray:
+"Photorealistic mango wood serving tray with brass handles on a marble tabletop. Natural daylight, shallow depth of field, styled with linen napkin and ceramic cup. 35mm lens, warm color grade, high resolution, studio-photography realism. --ar 3:2 --v 6"
+
+2) Desk Pen Holder:
+"High-detail teak wood pen holder on a modern desk, laptop blurred in background. Soft sunlight, textured wood grain visible, 85mm lens bokeh, minimal office styling. Photorealistic. --ar 4:5 --v 6"
+
+3) Handmade Picture Frame:
+"Walnut picture frame on a neutral wall with a small potted plant beside it. Soft natural light, crisp grain, 50mm lens, high-detail product shot for ecommerce. --ar 3:2 --v 6"
+
+4) Foldable Book Stand:
+"Compact foldable teak book stand on a study table with books and a cup of tea. Warm ambient light, clean minimal setting, top-down and angled shots, photorealistic. --ar 4:5 --v 6"
+
+5) Mini Pooja Mandir (1m x 1m):
+"Handcrafted wooden pooja mandir, carved panels and lacquer finish, photographed in warm indoor light. Slight vignette, 35mm lens, high detail showing carvings, styled for home altar. --ar 3:2 --v 6"
+
+6) Compact Wooden Chair:
+"Small elegant wooden chair with ergonomic back, placed on parquet floor near a window. Morning light, shallow depth, visible wood texture and joinery, furniture photography. --ar 3:2 --v 6"
+
+7) Round Side Table:
+"Round side table with tapered legs on a living room rug, styled with a plant and book. Natural lighting, 35mm lens, product-focused composition, photorealistic. --ar 3:2 --v 6"
+
+8) Personalized Wooden Gift Box:
+"Premium engraved wooden gift box with satin lining photographed on a soft fabric, close-up on engraving, luxury product shot, shallow depth of field. --ar 4:5 --v 6"
+
+9) Floating Wall Shelf:
+"Minimal floating wall shelf in a modern interior, styled with small decor objects and framed photo. Side-lighting to show finish, clean composition, high detail. --ar 3:2 --v 6"
+
+10) Set of Wooden Coasters:
+"Set of 4 round wooden coasters on a wooden table, top-down arrangement with coffee cups, texture details visible, warm tones, high-resolution. --ar 3:2 --v 6"
+
+11) Wooden Table Lamp:
+"Ambient wooden table lamp with fabric shade on bedside table, warm evening light, bokeh background, cozy mood, photorealistic product shot. --ar 3:2 --v 6"
+
+12) Walnut Wall Clock:
+"Minimal walnut wall clock mounted on matte wall, even lighting showing grain and edge profile, clean modern product shot. --ar 3:2 --v 6"
+
+13) Jewellery Organizer:
+"Wooden jewelry organizer with velvet-lined trays and compartments, laid open with jewelry pieces, studio lighting, macro-detail on compartments. --ar 4:5 --v 6"
+
+14) Remote & Phone Holder:
+"Rosewood desk caddy holding remote, phone and small items on a coffee table, natural window light, lifestyle scene with clean composition. --ar 4:5 --v 6"
+
+15) Oval Serving Tray:
+"Elegant oval serving tray with inlaid border, styled with appetizers on a table, shallow depth, rich texture detail, 35mm lens. --ar 3:2 --v 6"
+
+16) Cutting & Serving Board:
+"Dual-purpose wooden board with juice groove and knife, styled with olives and cheese, top-down and angled shots, high-detail wood grain. --ar 3:2 --v 6"
+
+17) Fridge Magnet Set:
+"Set of 6 decorative wooden fridge magnets arranged on a fridge door, lifestyle kitchen background slightly blurred, crisp close-ups. --ar 3:2 --v 6"
+
+18) Executive Pen Stand:
+"Solid wood executive pen stand with business card slot, placed on an office desk with leather notebook, studio lighting showing wood polish. --ar 4:5 --v 6"
+
+19) Tea Tray - Minimal:
+"Small handcrafted tea tray with two cups, minimal styling on wooden surface, warm morning light, intimate product composition. --ar 3:2 --v 6"
+
+20) Rustic Photo Ledge:
+"Narrow rustic photo ledge with framed photos and succulents, side lighting, texture-rich wood finish detail, interior styling shot. --ar 3:2 --v 6"
+
+21) Wooden Storage Crate:
+"Small stackable wooden storage crate filled with magazines, photographed in a living room corner, soft daylight, functional styling. --ar 3:2 --v 6"
+
+22) Plant Stand - Trio:
+"Three-tier wooden plant stand with potted plants, placed near bright window, natural light, lifestyle composition highlighting finishes. --ar 3:2 --v 6"
+
+23) Long Serving Platter:
+"Long wooden serving platter with appetizers, natural light, top-down and angled hero images, high-resolution texture and edge detail. --ar 3:2 --v 6"
+
+24) Round Wall Mirror:
+"Round mirror with wooden frame over console table, soft daylight, styled with vase, interior photography with natural tones. --ar 3:2 --v 6"
+
+25) Corner Display Shelf:
+"Space-saving corner display shelf with decor items, photographed in a modern apartment corner with soft natural light, high-detail. --ar 3:2 --v 6"
+
+26) Engraved Key Holder:
+"Wall-mounted wooden key holder with personalized engraving, styled at entryway with keys, shallow depth, warm tones. --ar 4:5 --v 6"
+
+27) Paddle Serving Board:
+"Paddle-style serving board for cheese and charcuterie on a rustic table, styled with cheeses and grapes, top-down and angled shots. --ar 3:2 --v 6"
+
+28) Low Stool:
+"Compact low wooden stool photographed in a cozy corner, natural light, detail on joints and finish, product-lifestyle blend. --ar 3:2 --v 6"
+
+29) Tray with Inlay:
+"Decorative serving tray with intricate inlay, close-up on craftsmanship, studio lighting to bring out inlay contrast and grain. --ar 3:2 --v 6"
+
+30) Vintage Desk Clock:
+"Wooden tabletop clock with brass accents on an office shelf, warm ambient light, close-up on dial and finish, classic styling. --ar 4:5 --v 6"
+
+31) Kitchen Utensil Holder:
+"Large wooden utensil holder with watertight interior finish, placed in styled kitchen with utensils, natural daylight and texture detail. --ar 3:2 --v 6"
+
+32) Laptop Stand:
+"Wooden laptop stand with ventilation slots on a desk, laptop mounted with clean cable management, soft daylight, 45-degree angle. --ar 4:5 --v 6"
+
+33) Square Serving Tray:
+"Square wooden tray with raised edges and grip handles, styled with snacks and small bowls, studio lighting, high-detail wood texture. --ar 3:2 --v 6"
+
+34) Rectangular Beveled Mirror:
+"Beveled rectangular wooden framed mirror over console with decor, natural light, elegant home staging shot. --ar 3:2 --v 6"
+
+35) Wooden Bookmark Set:
+"Set of five carved wooden bookmarks with leather tassels laid on an open book, macro-detail, warm tones for artisan gift photography. --ar 3:2 --v 6"
+
+36) Hanging Wooden Pendant:
+"Single wooden pendant lamp suspended over dining table, cinematic evening lighting, visible wood grain and warm glow, interior mood shot. --ar 3:2 --v 6"
+
+37) Magazine Rack:
+"Angled wooden magazine rack with carved handles beside sofa, lifestyle scene, natural daylight, functional and stylish composition. --ar 3:2 --v 6"
+
+38) Compact Shoe Bench:
+"Small shoe bench with storage photographed in an entryway, styled with shoes and cushion, even lighting, detail on joinery and finish. --ar 3:2 --v 6"
+
+39) Wooden Candle Holder:
+"Set of wooden candle holders with brass inserts on a dining table, warm candlelit mood, shallow depth and texture emphasis. --ar 3:2 --v 6"
+
+40) Entryway Key Console:
+"Slim wooden key console table with small drawer in an entryway, styled with decorative bowl and plant, soft natural light, clean product shot. --ar 3:2 --v 6"
+
+---
+
+Usage notes:
+- Use these prompts as-is in Midjourney (append parameters as needed) or adapt to DALL·E/SDXL prompts. For Midjourney v6 use the parameter hints (e.g., --ar and --v). For DALL·E, remove Midjourney-specific flags and adjust for resolution.
+- Save generated images with filenames matching data/products.json entries (e.g., product-001.jpg) and place them into public/images/ replacing the SVG placeholders. Update the product JSON if you use different names/extensions.
