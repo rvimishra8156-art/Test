@@ -7,7 +7,16 @@
     "build": "next build",
     "export": "next build && next export",
     "start": "next start -p 3000",
-    "serve-export": "npx http-server out -p 8080"
+    "serve-export": "npx http-server out -p 8080",
+    "lint": "next lint"
+  },
+  "devDependencies": {
+    "eslint": "8",
+    "eslint-config-next": "14.2.35",
+    "puppeteer": "^22.0.0",
+    "wait-on": "^7.2.0",
+    "http-server": "^14.1.1",
+    "@lhci/cli": "^0.13.0"
   },
   "dependencies": {
     "emailjs-com": "^3.2.0",
