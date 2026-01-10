@@ -3,6 +3,7 @@ import { useState } from "react";
 import { GetStaticProps } from "next";
 import ProductList from "../components/ProductList";
 import ProductModal from "../components/ProductModal";
+import Header from "../components/Header"; // Import the new Header
 import { getProducts } from "../lib/data";
 import { Product } from "../types";
 
@@ -34,22 +35,8 @@ export default function Home({ products }: HomeProps) {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
 
-            <header className="site-header">
-                <div className="container">
-                    <div className="logo">
-                        <h1>Pluss Wood</h1>
-                    </div>
-                    <div className="search-bar">
-                        <input
-                            type="text"
-                            placeholder="Search products..."
-                            value={search}
-                            onChange={(e) => setSearch(e.target.value)}
-                            aria-label="Search"
-                        />
-                    </div>
-                </div>
-            </header>
+            {/* Shared Header with Top Bar */}
+            <Header onSearch={setSearch} />
 
             <main className="container main-content">
                 <div className="hero">

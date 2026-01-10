@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { Product } from "../types";
+import config from "../config.json";
 
 interface ProductModalProps {
     product: Product;
@@ -22,6 +23,8 @@ export default function ProductModal({ product, onClose }: ProductModalProps) {
     useEffect(() => {
         setIndex(0);
     }, [product]);
+
+    const whatsappUrl = `https://wa.me/${config.company.whatsapp_international}?text=${encodeURIComponent(`Hi, I'm interested in the product: ${product.name} (SKU:${product.sku})`)}`;
 
     return (
         <div className="modal-overlay" onClick={onClose}>
@@ -73,7 +76,7 @@ export default function ProductModal({ product, onClose }: ProductModalProps) {
                         </p>
                         <a
                             className="whatsapp large"
-                            href={`https://wa.me/919711842097?text=${encodeURIComponent(`Hi, I'm interested in the product: ${product.name} (SKU:${product.sku})`)}`}
+                            href={whatsappUrl}
                             target="_blank"
                             rel="noreferrer"
                         >

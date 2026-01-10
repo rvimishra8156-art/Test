@@ -1,10 +1,10 @@
 {
   "company": {
-    "name": "Pluss Wood",
+    "name": "Wood Premier",
     "tagline": "Crafted Wood. Curated Living.",
-    "phone": "9711842097",
-    "whatsapp_international": "919711842097",
-    "email": "plussunilsingh@gmail.com",
+    "phone": "8285815685",
+    "whatsapp_international": "918285815685",
+    "email": "rvimishra.8156@gmail.com",
     "address": "New Delhi, India",
     "currency": "INR",
     "default_items_per_page": 9,
@@ -20,7 +20,7 @@
     "public_key": "REPLACE_WITH_YOUR_PUBLIC_KEY"
   },
   "seo": {
-    "site_title": "Pluss Wood — Premium Wooden Products",
+    "site_title": "Wood Premier — Premium Wooden Products",
     "site_description": "Premium handcrafted wooden goods — serving trays, pen holders, frames, small furniture and curated gifts."
   }
 }
