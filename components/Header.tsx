@@ -17,7 +17,7 @@ export default function Header({ onSearch }: HeaderProps) {
     };
 
     const whatsappInternational = config.company.whatsapp_international || config.company.phone.replace(/\D/g, '');
-    const whatsappUrl = `https://wa.me/${whatsappInternational}?text=${encodeURIComponent("Hi, I want to connect with Pluss Wood.")}`;
+    const whatsappUrl = `https://wa.me/${whatsappInternational}?text=${encodeURIComponent(`Hi, I want to connect with ${config.company.name}.`)}`;
 
     return (
         <header className="site-header">
