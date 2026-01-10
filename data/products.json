@@ -3,10 +3,16 @@
     "id": "prod-001",
     "name": "Classic Serving Tray",
     "description": "Premium mango wood serving tray with brass handles. Smooth finish; perfect for breakfasts and gifting.",
-    "images": ["/images/product-001.svg","/images/product-002.svg","/images/product-003.svg"],
+    "images": [
+      "/images/product-001.png"
+    ],
     "price_min": 50,
     "price_max": 120,
-    "tags": ["tray","kitchen","gift"],
+    "tags": [
+      "tray",
+      "kitchen",
+      "gift"
+    ],
     "category": "serveware",
     "sku": "TRAY-001",
     "stock": 20,
@@ -16,10 +22,16 @@
     "id": "prod-002",
     "name": "Desk Pen Holder",
     "description": "Minimal teak wood pen holder to keep your workspace tidy.",
-    "images": ["/images/product-004.svg","/images/product-005.svg"],
+    "images": [
+      "/images/product-004.png"
+    ],
     "price_min": 60,
     "price_max": 110,
-    "tags": ["office","desk","penholder"],
+    "tags": [
+      "office",
+      "desk",
+      "penholder"
+    ],
     "category": "accessories",
     "sku": "PEN-001",
     "stock": 40,
@@ -29,10 +41,16 @@
     "id": "prod-003",
     "name": "Handmade Picture Frame",
     "description": "Solid walnut frame handcrafted. Available in multiple sizes.",
-    "images": ["/images/product-006.svg","/images/product-007.svg"],
+    "images": [
+      "/images/product-006.png"
+    ],
     "price_min": 70,
     "price_max": 120,
-    "tags": ["frame","home","decor"],
+    "tags": [
+      "frame",
+      "home",
+      "decor"
+    ],
     "category": "decor",
     "sku": "FRAME-001",
     "stock": 15,
@@ -42,10 +60,16 @@
     "id": "prod-004",
     "name": "Foldable Book Stand",
     "description": "Compact foldable book support made of sustainable teak; ideal for study tables.",
-    "images": ["/images/product-008.svg"],
+    "images": [
+      "/images/product-008.svg"
+    ],
     "price_min": 80,
     "price_max": 120,
-    "tags": ["books","stand","study"],
+    "tags": [
+      "books",
+      "stand",
+      "study"
+    ],
     "category": "accessories",
     "sku": "BOOK-001",
     "stock": 30,
@@ -55,10 +79,16 @@
     "id": "prod-005",
     "name": "Mini Pooja Mandir (1m x 1m)",
     "description": "Compact handcrafted wooden mandir for home pooja spaces, carved panels and lacquer finish.",
-    "images": ["/images/product-009.svg"],
+    "images": [
+      "/images/product-009.svg"
+    ],
     "price_min": 2500,
     "price_max": 4200,
-    "tags": ["pooja","temple","home"],
+    "tags": [
+      "pooja",
+      "temple",
+      "home"
+    ],
     "category": "furniture",
     "sku": "POOJA-001",
     "stock": 5,
@@ -68,10 +98,15 @@
     "id": "prod-006",
     "name": "Compact Wooden Chair",
     "description": "Elegant small chair for guest seating with ergonomic back and polished finish.",
-    "images": ["/images/product-010.svg"],
+    "images": [
+      "/images/product-010.svg"
+    ],
     "price_min": 1200,
     "price_max": 3200,
-    "tags": ["chair","furniture"],
+    "tags": [
+      "chair",
+      "furniture"
+    ],
     "category": "furniture",
     "sku": "CHAIR-001",
     "stock": 12,
@@ -81,10 +116,15 @@
     "id": "prod-007",
     "name": "Round Side Table",
     "description": "Round side table with tapered legs; perfect for living rooms.",
-    "images": ["/images/product-011.svg"],
+    "images": [
+      "/images/product-011.svg"
+    ],
     "price_min": 1500,
     "price_max": 4200,
-    "tags": ["table","side"],
+    "tags": [
+      "table",
+      "side"
+    ],
     "category": "furniture",
     "sku": "TABLE-001",
     "stock": 8,
@@ -94,10 +134,16 @@
     "id": "prod-008",
     "name": "Personalized Wooden Gift Box",
     "description": "Premium engraved wooden gift box with satin lining — perfect for corporate gifts.",
-    "images": ["/images/product-012.svg"],
+    "images": [
+      "/images/product-012.svg"
+    ],
     "price_min": 450,
     "price_max": 900,
-    "tags": ["gift","box","corporate"],
+    "tags": [
+      "gift",
+      "box",
+      "corporate"
+    ],
     "category": "gifts",
     "sku": "GIFT-001",
     "stock": 25,
@@ -107,10 +153,16 @@
     "id": "prod-009",
     "name": "Floating Wall Shelf",
     "description": "Floating wall shelf with hidden brackets; minimal look.",
-    "images": ["/images/product-013.svg"],
+    "images": [
+      "/images/product-013.svg"
+    ],
     "price_min": 900,
     "price_max": 1800,
-    "tags": ["shelf","wall","storage"],
+    "tags": [
+      "shelf",
+      "wall",
+      "storage"
+    ],
     "category": "furniture",
     "sku": "SHELF-001",
     "stock": 18,
@@ -120,10 +172,16 @@
     "id": "prod-010",
     "name": "Set of Wooden Coasters",
     "description": "Set of 4 coaster discs with felt base for table protection.",
-    "images": ["/images/product-014.svg"],
+    "images": [
+      "/images/product-014.svg"
+    ],
     "price_min": 50,
     "price_max": 100,
-    "tags": ["coaster","table","set"],
+    "tags": [
+      "coaster",
+      "table",
+      "set"
+    ],
     "category": "serveware",
     "sku": "COASTER-001",
     "stock": 100,
@@ -133,10 +191,15 @@
     "id": "prod-011",
     "name": "Wooden Table Lamp",
     "description": "Ambient wooden lamp with fabric shade; soft warm lighting.",
-    "images": ["/images/product-015.svg"],
+    "images": [
+      "/images/product-015.svg"
+    ],
     "price_min": 1200,
     "price_max": 2600,
-    "tags": ["lamp","lighting"],
+    "tags": [
+      "lamp",
+      "lighting"
+    ],
     "category": "decor",
     "sku": "LAMP-001",
     "stock": 10,
@@ -146,10 +209,16 @@
     "id": "prod-012",
     "name": "Walnut Wall Clock",
     "description": "Minimal walnut wall clock with silent movement.",
-    "images": ["/images/product-016.svg"],
+    "images": [
+      "/images/product-016.svg"
+    ],
     "price_min": 850,
     "price_max": 1500,
-    "tags": ["clock","wall","decor"],
+    "tags": [
+      "clock",
+      "wall",
+      "decor"
+    ],
     "category": "decor",
     "sku": "CLOCK-001",
     "stock": 20,
@@ -159,10 +228,15 @@
     "id": "prod-013",
     "name": "Jewellery Organizer",
     "description": "Compact jewelry organizer with multiple trays and velvet lining.",
-    "images": ["/images/product-017.svg"],
+    "images": [
+      "/images/product-017.svg"
+    ],
     "price_min": 700,
     "price_max": 1200,
-    "tags": ["jewelry","organizer"],
+    "tags": [
+      "jewelry",
+      "organizer"
+    ],
     "category": "gifts",
     "sku": "BOX-001",
     "stock": 28,
@@ -172,10 +246,16 @@
     "id": "prod-014",
     "name": "Remote & Phone Holder",
     "description": "Desk caddy for remotes, phone and small items, made from rosewood.",
-    "images": ["/images/product-018.svg"],
+    "images": [
+      "/images/product-018.svg"
+    ],
     "price_min": 150,
     "price_max": 350,
-    "tags": ["holder","desk","remote"],
+    "tags": [
+      "holder",
+      "desk",
+      "remote"
+    ],
     "category": "accessories",
     "sku": "HOLDER-001",
     "stock": 60,
@@ -185,10 +265,15 @@
     "id": "prod-015",
     "name": "Oval Serving Tray",
     "description": "Elegant oval-shaped tray with inlaid border.",
-    "images": ["/images/product-019.svg"],
+    "images": [
+      "/images/product-019.svg"
+    ],
     "price_min": 140,
     "price_max": 300,
-    "tags": ["tray","serveware"],
+    "tags": [
+      "tray",
+      "serveware"
+    ],
     "category": "serveware",
     "sku": "TRAY-002",
     "stock": 14,
@@ -198,10 +283,15 @@
     "id": "prod-016",
     "name": "Cutting & Serving Board",
     "description": "Dual-purpose board for cutting or presentation; juice groove included.",
-    "images": ["/images/product-020.svg"],
+    "images": [
+      "/images/product-020.svg"
+    ],
     "price_min": 250,
     "price_max": 600,
-    "tags": ["board","kitchen"],
+    "tags": [
+      "board",
+      "kitchen"
+    ],
     "category": "serveware",
     "sku": "BOARD-001",
     "stock": 40,
@@ -211,10 +301,15 @@
     "id": "prod-017",
     "name": "Fridge Magnet Set",
     "description": "Set of 6 decorative wooden magnets.",
-    "images": ["/images/product-021.svg"],
+    "images": [
+      "/images/product-021.svg"
+    ],
     "price_min": 50,
     "price_max": 90,
-    "tags": ["magnet","gift"],
+    "tags": [
+      "magnet",
+      "gift"
+    ],
     "category": "gifts",
     "sku": "MAGNET-001",
     "stock": 200,
@@ -224,10 +319,15 @@
     "id": "prod-018",
     "name": "Executive Pen Stand",
     "description": "Solid wood pen stand with pen slot and business card holder.",
-    "images": ["/images/product-022.svg"],
+    "images": [
+      "/images/product-022.svg"
+    ],
     "price_min": 120,
     "price_max": 420,
-    "tags": ["pen","desk"],
+    "tags": [
+      "pen",
+      "desk"
+    ],
     "category": "accessories",
     "sku": "PEN-002",
     "stock": 30,
@@ -237,10 +337,15 @@
     "id": "prod-019",
     "name": "Tea Tray - Minimal",
     "description": "Small tea tray for serving 2 cups; hand-sanded finish.",
-    "images": ["/images/product-023.svg"],
+    "images": [
+      "/images/product-023.svg"
+    ],
     "price_min": 80,
     "price_max": 150,
-    "tags": ["tea","tray"],
+    "tags": [
+      "tea",
+      "tray"
+    ],
     "category": "serveware",
     "sku": "TRAY-003",
     "stock": 36,
@@ -250,10 +355,15 @@
     "id": "prod-020",
     "name": "Rustic Photo Ledge",
     "description": "Narrow ledge for framed photos and small decorations.",
-    "images": ["/images/product-024.svg"],
+    "images": [
+      "/images/product-024.svg"
+    ],
     "price_min": 350,
     "price_max": 700,
-    "tags": ["frame","ledge"],
+    "tags": [
+      "frame",
+      "ledge"
+    ],
     "category": "decor",
     "sku": "FRAME-002",
     "stock": 22,
@@ -263,10 +373,15 @@
     "id": "prod-021",
     "name": "Wooden Storage Crate",
     "description": "Stackable small storage crates for magazines and toys.",
-    "images": ["/images/product-025.svg"],
+    "images": [
+      "/images/product-025.svg"
+    ],
     "price_min": 420,
     "price_max": 980,
-    "tags": ["crate","storage"],
+    "tags": [
+      "crate",
+      "storage"
+    ],
     "category": "furniture",
     "sku": "CRATE-001",
     "stock": 10,
@@ -276,10 +391,15 @@
     "id": "prod-022",
     "name": "Plant Stand - Trio",
     "description": "Set of 3 tiered plant stands to elevate potted plants.",
-    "images": ["/images/product-026.svg"],
+    "images": [
+      "/images/product-026.svg"
+    ],
     "price_min": 700,
     "price_max": 1600,
-    "tags": ["plant","stand"],
+    "tags": [
+      "plant",
+      "stand"
+    ],
     "category": "decor",
     "sku": "STAND-001",
     "stock": 9,
@@ -289,10 +409,15 @@
     "id": "prod-023",
     "name": "Long Serving Platter",
     "description": "Long-serving platter ideal for appetizers; polished finish.",
-    "images": ["/images/product-027.svg"],
+    "images": [
+      "/images/product-027.svg"
+    ],
     "price_min": 220,
     "price_max": 480,
-    "tags": ["platter","serveware"],
+    "tags": [
+      "platter",
+      "serveware"
+    ],
     "category": "serveware",
     "sku": "PLATTER-001",
     "stock": 12,
@@ -302,10 +427,15 @@
     "id": "prod-024",
     "name": "Round Wall Mirror",
     "description": "Round mirror with hand-finished wooden frame.",
-    "images": ["/images/product-028.svg"],
+    "images": [
+      "/images/product-028.svg"
+    ],
     "price_min": 900,
     "price_max": 1800,
-    "tags": ["mirror","decor"],
+    "tags": [
+      "mirror",
+      "decor"
+    ],
     "category": "decor",
     "sku": "MIRROR-001",
     "stock": 6,
@@ -315,10 +445,15 @@
     "id": "prod-025",
     "name": "Corner Display Shelf",
     "description": "Space-saving corner shelf for display items.",
-    "images": ["/images/product-029.svg"],
+    "images": [
+      "/images/product-029.svg"
+    ],
     "price_min": 650,
     "price_max": 1200,
-    "tags": ["corner","shelf"],
+    "tags": [
+      "corner",
+      "shelf"
+    ],
     "category": "furniture",
     "sku": "SHELF-002",
     "stock": 7,
@@ -328,10 +463,16 @@
     "id": "prod-026",
     "name": "Engraved Key Holder",
     "description": "Wall key holder with personalized engraving slot.",
-    "images": ["/images/product-030.svg"],
+    "images": [
+      "/images/product-030.svg"
+    ],
     "price_min": 90,
     "price_max": 200,
-    "tags": ["key","holder","gift"],
+    "tags": [
+      "key",
+      "holder",
+      "gift"
+    ],
     "category": "gifts",
     "sku": "GIFT-002",
     "stock": 80,
@@ -341,10 +482,15 @@
     "id": "prod-027",
     "name": "Paddle Serving Board",
     "description": "Paddle style serving board for cheese & charcuterie.",
-    "images": ["/images/product-031.svg"],
+    "images": [
+      "/images/product-031.svg"
+    ],
     "price_min": 300,
     "price_max": 700,
-    "tags": ["cheese","board"],
+    "tags": [
+      "cheese",
+      "board"
+    ],
     "category": "serveware",
     "sku": "BOARD-002",
     "stock": 20,
@@ -354,10 +500,15 @@
     "id": "prod-028",
     "name": "Low Stool",
     "description": "Compact low stool ideal for casual seating.",
-    "images": ["/images/product-032.svg"],
+    "images": [
+      "/images/product-032.svg"
+    ],
     "price_min": 950,
     "price_max": 2000,
-    "tags": ["stool","seating"],
+    "tags": [
+      "stool",
+      "seating"
+    ],
     "category": "furniture",
     "sku": "STOOL-001",
     "stock": 11,
@@ -367,10 +518,15 @@
     "id": "prod-029",
     "name": "Tray with Inlay",
     "description": "Tray with decorative inlay for special occasions.",
-    "images": ["/images/product-033.svg"],
+    "images": [
+      "/images/product-033.svg"
+    ],
     "price_min": 180,
     "price_max": 420,
-    "tags": ["tray","inlay"],
+    "tags": [
+      "tray",
+      "inlay"
+    ],
     "category": "serveware",
     "sku": "TRAY-005",
     "stock": 15,
@@ -380,10 +536,15 @@
     "id": "prod-030",
     "name": "Vintage Desk Clock",
     "description": "Tabletop clock with wooden base and brass accents.",
-    "images": ["/images/product-034.svg"],
+    "images": [
+      "/images/product-034.svg"
+    ],
     "price_min": 600,
     "price_max": 1200,
-    "tags": ["clock","desk"],
+    "tags": [
+      "clock",
+      "desk"
+    ],
     "category": "decor",
     "sku": "CLOCK-002",
     "stock": 14,
@@ -393,10 +554,15 @@
     "id": "prod-031",
     "name": "Kitchen Utensil Holder",
     "description": "Large utensil holder with watertight interior finish.",
-    "images": ["/images/product-035.svg"],
+    "images": [
+      "/images/product-035.svg"
+    ],
     "price_min": 320,
     "price_max": 650,
-    "tags": ["kitchen","utensils"],
+    "tags": [
+      "kitchen",
+      "utensils"
+    ],
     "category": "serveware",
     "sku": "HOLDER-002",
     "stock": 24,
@@ -406,10 +572,16 @@
     "id": "prod-032",
     "name": "Laptop Stand",
     "description": "Wooden laptop stand with ventilation slots and angle support.",
-    "images": ["/images/product-036.svg"],
+    "images": [
+      "/images/product-036.svg"
+    ],
     "price_min": 400,
     "price_max": 950,
-    "tags": ["laptop","stand","office"],
+    "tags": [
+      "laptop",
+      "stand",
+      "office"
+    ],
     "category": "accessories",
     "sku": "RACK-001",
     "stock": 30,
@@ -419,10 +591,15 @@
     "id": "prod-033",
     "name": "Square Serving Tray",
     "description": "Square tray with raised edges and grip handles.",
-    "images": ["/images/product-037.svg"],
+    "images": [
+      "/images/product-037.svg"
+    ],
     "price_min": 130,
     "price_max": 300,
-    "tags": ["tray","square"],
+    "tags": [
+      "tray",
+      "square"
+    ],
     "category": "serveware",
     "sku": "TRAY-006",
     "stock": 17,
@@ -432,10 +609,15 @@
     "id": "prod-034",
     "name": "Rectangular Beveled Mirror",
     "description": "Beveled rectangular mirror with simple wooden frame.",
-    "images": ["/images/product-038.svg"],
+    "images": [
+      "/images/product-038.svg"
+    ],
     "price_min": 1100,
     "price_max": 2100,
-    "tags": ["mirror","bevel"],
+    "tags": [
+      "mirror",
+      "bevel"
+    ],
     "category": "decor",
     "sku": "MIRROR-002",
     "stock": 4,
@@ -445,10 +627,15 @@
     "id": "prod-035",
     "name": "Wooden Bookmark Set",
     "description": "Set of 5 carved wooden bookmarks with leather tassels.",
-    "images": ["/images/product-039.svg"],
+    "images": [
+      "/images/product-039.svg"
+    ],
     "price_min": 60,
     "price_max": 160,
-    "tags": ["bookmark","gift"],
+    "tags": [
+      "bookmark",
+      "gift"
+    ],
     "category": "gifts",
     "sku": "BOOKMARK-001",
     "stock": 150,
@@ -458,10 +645,15 @@
     "id": "prod-036",
     "name": "Hanging Wooden Pendant",
     "description": "Single wooden pendant lamp for dining or study corners.",
-    "images": ["/images/product-040.svg"],
+    "images": [
+      "/images/product-040.svg"
+    ],
     "price_min": 1500,
     "price_max": 2800,
-    "tags": ["lighting","pendant"],
+    "tags": [
+      "lighting",
+      "pendant"
+    ],
     "category": "decor",
     "sku": "LAMP-002",
     "stock": 6,
@@ -471,10 +663,15 @@
     "id": "prod-037",
     "name": "Magazine Rack",
     "description": "Angled wooden magazine rack with carved handles.",
-    "images": ["/images/product-001.svg"],
+    "images": [
+      "/images/product-001.svg"
+    ],
     "price_min": 520,
     "price_max": 980,
-    "tags": ["rack","magazine"],
+    "tags": [
+      "rack",
+      "magazine"
+    ],
     "category": "furniture",
     "sku": "RACK-002",
     "stock": 13,
@@ -484,10 +681,15 @@
     "id": "prod-038",
     "name": "Compact Shoe Bench",
     "description": "Small bench with storage for shoes; polished and sturdy.",
-    "images": ["/images/product-002.svg"],
+    "images": [
+      "/images/product-002.svg"
+    ],
     "price_min": 1800,
     "price_max": 3200,
-    "tags": ["bench","entryway"],
+    "tags": [
+      "bench",
+      "entryway"
+    ],
     "category": "furniture",
     "sku": "BENCH-001",
     "stock": 7,
@@ -497,10 +699,15 @@
     "id": "prod-039",
     "name": "Wooden Candle Holder",
     "description": "Set of wooden candle holders with brass inserts.",
-    "images": ["/images/product-003.svg"],
+    "images": [
+      "/images/product-003.svg"
+    ],
     "price_min": 150,
     "price_max": 360,
-    "tags": ["candle","decor"],
+    "tags": [
+      "candle",
+      "decor"
+    ],
     "category": "decor",
     "sku": "CANDLE-001",
     "stock": 45,
@@ -510,10 +717,15 @@
     "id": "prod-040",
     "name": "Entryway Key Console",
     "description": "Slim console for keys and small items; wall mounted.",
-    "images": ["/images/product-004.svg"],
+    "images": [
+      "/images/product-004.svg"
+    ],
     "price_min": 650,
     "price_max": 1300,
-    "tags": ["console","entryway"],
+    "tags": [
+      "console",
+      "entryway"
+    ],
     "category": "furniture",
     "sku": "CONSOLE-001",
     "stock": 16,
