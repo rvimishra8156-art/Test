@@ -1,6 +1,8 @@
 import React from 'react';
 import { Product } from '../types';
 
+import Image from 'next/image';
+
 interface ProductCardProps {
     product: Product;
     onClick: (product: Product) => void;
@@ -17,13 +19,13 @@ export default function ProductCard({ product, onClick }: ProductCardProps) {
         <div className="product-card">
             <div className="image-container" onClick={() => onClick(product)}>
                 {/* Defensive check for images array is now guaranteed by Zod at data layer, but good to keep safe */}
-                <img
+                <Image
                     src={product.images[0]}
                     alt={product.name}
-                    loading="lazy"
-                    width="400"
-                    height="300"
+                    width={400}
+                    height={300}
                     style={{ objectFit: 'cover', width: '100%', aspectRatio: '4/3' }}
+                    unoptimized
                 />
             </div>
             <div className="info">
